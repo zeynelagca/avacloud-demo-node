@@ -3,7 +3,8 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "build": "tsc",
+    "build": "tsc build --output public",
+    
     "start": "tsc && node app.js",
     "start-fetch": "tsc && node app-fetch.js"
   },
